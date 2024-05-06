@@ -1,0 +1,179 @@
+.EndSection{
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 5rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    &-header{
+        margin-bottom: 2rem;
+        display: flex;
+        gap: 2rem;
+    &__text{
+        font-size: 3.12rem;
+        height: 5rem;
+        width: 6rem;
+        background-color: #BCF3F3;
+        color: #446989;
+        font-weight: 500;
+        list-style: 4rem;
+        text-align: center;
+    }
+    &__text1{
+        color: #446989;
+        font-size: 3.12rem;
+        font-weight: 700;
+        line-height: 4rem;
+    }
+    &__text2{
+        color: #2cb5b4;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+
+    }
+    &__image{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        margin-top: 2rem;
+    }
+}
+}
+
+@media screen and (max-width:360px) {
+    .EndSection{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        &-header{
+            gap: 0rem;
+            width: 100%;
+            &__image1{
+                width: 100%;
+            }
+            &__image{
+                display: none;
+            }
+            &__text1{
+                font-size: 1rem;
+            }
+            &__text2{
+                font-size: 1.25rem;
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width:360px) and (max-width:600px) {
+
+    .EndSection{
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+        &-header{
+            &__image{
+                display: none;
+            }
+            &__text1{
+                font-size: 2rem;
+            }
+            &__text2{
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+// @media screen and (min-width:600px) and (max-width:712px) {
+//     .EndSection{
+//         .EndSection{
+//             &-header{
+//                 text-align: center;
+//                 &__image{
+//                     display: none;
+//                 }
+//                 &__text1{
+//                     font-size: 2rem;
+//                 }
+//                 &__text2{
+//                     font-size: 1.25rem;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+@media screen and (min-width:576px) and (max-width:854px) {
+    .EndSection{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        &-header{
+            &__text{
+                font-size: 2rem;
+            }
+            &__image1{
+                width: 80%;
+            }
+            &__image{
+                display: none;
+            }
+            &__text1{
+                font-size: 2rem;
+            }
+            &__text2{
+                font-size: 1.25rem;
+            }
+        }
+    }  
+}
+
+@media screen and (min-width:360px) and (max-width:578px) {
+
+    .EndSection{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        &-header{
+            &__text{
+                font-size: 2rem;
+                float: left;
+            }
+            &__image1{
+                width: 80%;
+            }
+            &__image{
+                display: none;
+            }
+            &__text1{
+                font-size: 2rem;
+            }
+            &__text2{
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:854px) and (max-width:1024px) {
+    .EndSection{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        &-header{
+            &__text{
+                font-size: 2rem;
+            }
+            &__image1{
+                width: 80%;
+            }
+            &__image{
+                width: 40%;
+                float: right;
+                height: 40%;
+            }
+            &__text1{
+                font-size: 2rem;
+            }
+            &__text2{
+                font-size: 1.25rem;
+            }
+        }
+    }  
+}

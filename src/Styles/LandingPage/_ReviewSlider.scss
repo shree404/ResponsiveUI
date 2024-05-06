@@ -1,0 +1,75 @@
+.ReviewSlider{
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+&-individual{
+    height: 20rem;
+    width: 35rem;
+    border: 5px solid #2cb5b4;
+    align-content: center;
+    &__container{
+        height: auto;
+        width: 20rem;
+        margin: auto;
+    }
+    &__name{
+        font-size: 1rem;
+        color:  #446989;
+        line-height: 1.5rem;
+        font-weight: 500;
+    }
+    &__post{
+        font-size: 0.88rem;
+        font-weight: 500;
+        color: #A1AEB7;
+        line-height: 1.3rem;
+    }
+    &__description{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #2cb5b4;
+        line-height: 1.5rem;
+    }
+}
+}
+
+.ReviewSlider-Small{
+    display: none;
+}
+
+
+
+@media screen and (max-width:360px) {
+    .ReviewSlider-Medium{
+        display: none;
+    }
+    .ReviewSlider-Small{
+        display: inline;
+    }
+    
+    .ReviewSlider-individual{
+        width: 23rem;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:360px) {
+    .ReviewSlider-Medium{
+        display: none;
+    }
+    .ReviewSlider-Small{
+        display: inline;
+    }
+    
+    .ReviewSlider-individual{
+        width: 25rem;
+    }
+}
+
+
+@media screen and (max-width:800px) and (min-width:576px) {
+      .ReviewSlider-individual{
+        width: 25rem;
+    }
+}

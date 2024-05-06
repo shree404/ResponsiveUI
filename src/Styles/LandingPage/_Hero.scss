@@ -1,0 +1,83 @@
+.Hero {
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  background-color: #cff3f3;
+  &-Container {
+    &__image {
+      height: 100%;
+      width: 100%;
+    }
+    &-first {
+      align-items: center;
+      margin-top: 6rem;
+      margin-left: 6rem;
+    }
+    &__p1 {
+      font-size: 3.12rem;
+      color: #446989;
+      font-weight: 500;
+    }
+    &__p2 {
+      font-size: 1rem;
+      color: #909aa1;
+      font-weight: 500;
+      margin-top: -1.5rem;
+    }
+    &__end {
+      display: flex;
+      gap: 2rem;
+    }
+    &__p3 {
+      text-decoration: underline;
+      color: #446989;
+      font-size: 0.88rem;
+    }
+  }
+}
+
+.HeroMobile {
+  display: none;
+}
+
+@media screen and (max-width: 360px) {
+  .Hero {
+    display: none;
+    &-Container {
+      &-first {
+        justify-content: start;
+        margin-left: 0rem;
+      }
+      &__p1 {
+        font-size: 2rem;
+        color: #446989;
+        font-weight: 500;
+      }
+      &__end{
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .HeroMobile {
+    display: inline;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    &-container{
+        background-color: #cff3f3;   
+    }
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+  .Hero{
+    &-Container{
+        &__p1{
+          font-size: 2rem;
+          color: #446989;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+

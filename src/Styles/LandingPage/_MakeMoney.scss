@@ -1,0 +1,96 @@
+.MakeMoney-header {
+  &__p1 {
+    font-size: 3.12rem;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    color: #446989;
+  }
+}
+
+.MakeMoney-blog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+&__1 {
+  height: auto;
+  width: 20rem;
+  margin-top: 2rem;
+}
+&__p {
+  text-align: center;
+  color: #2cb5b4;
+  font-size: 1.7rem;
+}
+}
+
+@media screen and (max-width: 360px) {
+  .MakeMoney-header {
+    text-align: center;
+    margin-top: 2rem;
+    &__p1 {
+      font-size: 2rem;
+    }
+  }
+  .MakeMoney-blog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    &__1 {
+      text-align: center;
+      height: auto;
+      width: auto;
+    }
+    &__p {
+      color: #2cb5b4;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+  .MakeMoney-header {
+    text-align: center;
+  }
+  .MakeMoney-blog {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  }
+}
+
+
+@media screen and (max-width: 712px) and (min-width: 600px)  {
+  .MakeMoney-header{
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .MakeMoney-blog {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    }
+}
+
+@media screen and (min-width: 712px) and (max-width: 912px)  {
+  .MakeMoney-header{
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    &__p1{
+      font-size: 2rem;
+    }
+  }
+  .MakeMoney-blog {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    &__image{
+      width: 90%;
+    }
+    &__1{
+      height: auto;
+      width: 15rem;
+    }
+    &__p{
+      font-size: 1.2rem;
+    }
+    }
+}

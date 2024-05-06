@@ -1,0 +1,783 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.Navbar {
+  box-shadow: 0px 10px #CFF3F3;
+  height: 5rem;
+  width: 100%;
+}
+.Navbar-Container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navbar-Container-link {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.Navbar-Container__list {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.12rem;
+  color: #2cb5b4;
+  font-weight: 500;
+  list-style: none;
+}
+.Navbar-Container__button {
+  font-size: 0.75rem;
+  color: white;
+  background-color: #2cb5b4;
+  height: 2.5rem;
+  width: 10rem;
+  border: none;
+  border-radius: 0.27rem;
+  box-shadow: 0px 1.75px #D8D8D8;
+}
+
+.MobileNav {
+  display: none;
+}
+.MobileNav-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.MobileNav-Container__menu button {
+  border: none;
+  background-color: white;
+  height: 50%;
+  width: 50%;
+}
+.MobileNav-Container__DropdownMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#MobileNav-Container__Dropdownbutton {
+  color: white;
+  background-color: #2cb5b4;
+  border: none;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 360px) {
+  .MobileNav {
+    display: inline;
+  }
+  .Navbar {
+    display: none;
+  }
+  .Navbar-Container__button {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 576px) {
+  .MobileNav {
+    display: inline;
+  }
+  .Navbar {
+    display: none;
+  }
+  .Navbar-Container__button {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 375px) {
+  .Navbar {
+    height: 8rem;
+  }
+  .Navbar-Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+  }
+  .Navbar-Container-link {
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 712px) and (min-width: 600px) {
+  .Navbar {
+    height: 8rem;
+  }
+  .Navbar-Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+  }
+  .Navbar-Container-link {
+    gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 712px) {
+  .Navbar {
+    height: 8rem;
+  }
+  .Navbar-Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .Navbar-Container-link {
+    gap: 2rem;
+  }
+}
+.Hero {
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  background-color: #cff3f3;
+}
+.Hero-Container__image {
+  height: 100%;
+  width: 100%;
+}
+.Hero-Container-first {
+  align-items: center;
+  margin-top: 6rem;
+  margin-left: 6rem;
+}
+.Hero-Container__p1 {
+  font-size: 3.12rem;
+  color: #446989;
+  font-weight: 500;
+}
+.Hero-Container__p2 {
+  font-size: 1rem;
+  color: #909aa1;
+  font-weight: 500;
+  margin-top: -1.5rem;
+}
+.Hero-Container__end {
+  display: flex;
+  gap: 2rem;
+}
+.Hero-Container__p3 {
+  text-decoration: underline;
+  color: #446989;
+  font-size: 0.88rem;
+}
+
+.HeroMobile {
+  display: none;
+}
+
+@media screen and (max-width: 360px) {
+  .Hero {
+    display: none;
+  }
+  .Hero-Container-first {
+    justify-content: start;
+    margin-left: 0rem;
+  }
+  .Hero-Container__p1 {
+    font-size: 2rem;
+    color: #446989;
+    font-weight: 500;
+  }
+  .Hero-Container__end {
+    display: flex;
+    justify-content: center;
+  }
+  .HeroMobile {
+    display: inline;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .HeroMobile-container {
+    background-color: #cff3f3;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .Hero-Container__p1 {
+    font-size: 2rem;
+    color: #446989;
+    font-weight: 500;
+  }
+}
+.MakeMoney-header__p1 {
+  font-size: 3.12rem;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  color: #446989;
+}
+
+.MakeMoney-blog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.MakeMoney-blog__1 {
+  height: auto;
+  width: 20rem;
+  margin-top: 2rem;
+}
+.MakeMoney-blog__p {
+  text-align: center;
+  color: #2cb5b4;
+  font-size: 1.7rem;
+}
+
+@media screen and (max-width: 360px) {
+  .MakeMoney-header {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .MakeMoney-header__p1 {
+    font-size: 2rem;
+  }
+  .MakeMoney-blog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .MakeMoney-blog__1 {
+    text-align: center;
+    height: auto;
+    width: auto;
+  }
+  .MakeMoney-blog__p {
+    color: #2cb5b4;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 360px) {
+  .MakeMoney-header {
+    text-align: center;
+  }
+  .MakeMoney-blog {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+@media screen and (max-width: 712px) and (min-width: 600px) {
+  .MakeMoney-header {
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .MakeMoney-blog {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}
+@media screen and (min-width: 712px) and (max-width: 912px) {
+  .MakeMoney-header {
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .MakeMoney-header__p1 {
+    font-size: 2rem;
+  }
+  .MakeMoney-blog {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .MakeMoney-blog__image {
+    width: 90%;
+  }
+  .MakeMoney-blog__1 {
+    height: auto;
+    width: 15rem;
+  }
+  .MakeMoney-blog__p {
+    font-size: 1.2rem;
+  }
+}
+.HowItWorks {
+  font-family: "Ubuntu", sans-serif;
+}
+.HowItWorks-header__p1 {
+  font-size: 3.12rem;
+  font-weight: 700;
+  color: #446989;
+  text-align: center;
+  margin-top: 2rem;
+}
+.HowItWorks-blog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+}
+.HowItWorks-blog-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 9rem;
+}
+.HowItWorks-blog-individual {
+  height: auto;
+  width: 20rem;
+}
+.HowItWorks-blog__p1 {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #446989;
+}
+.HowItWorks-blog__p2 {
+  font-weight: 700;
+  font-size: 2.05rem;
+  color: #446989;
+}
+.HowItWorks-blog__p3 {
+  font-size: 1.5rem;
+  color: #2cb5b4;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+.HowItWorks-end {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 360px) {
+  .HowItWorks-header__p1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .HowItWorks-blog-individual {
+    margin-top: 1rem;
+  }
+  .HowItWorks-blog-1 {
+    gap: 0rem;
+  }
+  .HowItWorks-blog__p1 {
+    font-size: 1rem;
+  }
+  .HowItWorks-blog__p2 {
+    font-size: 1.75rem;
+  }
+  .HowItWorks-blog__p3 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 360px) {
+  .HowItWorks-blog {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+  .HowItWorks-blog__image {
+    display: flex;
+    justify-content: center;
+  }
+  .HowItWorks-blog-individual {
+    margin-top: 1rem;
+    width: 15rem;
+    height: auto;
+  }
+  .HowItWorks-blog-1 {
+    gap: 1rem;
+  }
+  .HowItWorks-blog__p1 {
+    font-size: 0.75rem;
+  }
+  .HowItWorks-blog__p2 {
+    font-size: 1.5rem;
+  }
+  .HowItWorks-blog__p3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 712px) and (min-width: 600px) {
+  .HowItWorks-blog {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .HowItWorks-blog__image {
+    display: flex;
+    justify-content: center;
+  }
+  .HowItWorks-blog-individual {
+    margin-top: 1rem;
+    width: 15rem;
+    height: auto;
+    margin: 1rem;
+  }
+  .HowItWorks-blog-1 {
+    gap: 1rem;
+  }
+  .HowItWorks-blog__p1 {
+    font-size: 0.75rem;
+  }
+  .HowItWorks-blog__p2 {
+    font-size: 1.5rem;
+  }
+  .HowItWorks-blog__p3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 912px) and (min-width: 712px) {
+  .HowItWorks-blog {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .HowItWorks-blog__image {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+  }
+  .HowItWorks-blog-1 {
+    justify-content: space-around;
+  }
+  .HowItWorks-blog-individual {
+    margin-top: 1rem;
+    width: 10rem;
+    height: auto;
+  }
+  .HowItWorks-blog__p1 {
+    font-size: 0.75rem;
+  }
+  .HowItWorks-blog__p2 {
+    font-size: 1.25rem;
+  }
+  .HowItWorks-blog__p3 {
+    font-size: 1rem;
+  }
+}
+.Featured {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #CFF3F3;
+  margin-top: 2rem;
+}
+.Featured-header {
+  font-size: 1.88rem;
+  font-weight: 700;
+  justify-content: center;
+  display: flex;
+  color: #446989;
+}
+.Featured-platform {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Review {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 4rem;
+}
+.Review-header {
+  text-align: center;
+}
+.Review-header__p1 {
+  font-size: 3.12rem;
+  color: #446989;
+  font-weight: 700;
+}
+.Review-header__p2 {
+  font-size: 1.3rem;
+  color: #446989;
+  font-weight: 700;
+}
+.Review-header__p3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2cb5b4;
+}
+
+@media screen and (max-width: 360px) {
+  .Review-header__p1 {
+    font-size: 2rem;
+  }
+  .Review-header__p2 {
+    font-size: 1.2rem;
+  }
+  .Review-header__p3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Review-header__p1 {
+    font-size: 2rem;
+  }
+  .Review-header__p2 {
+    font-size: 1.2rem;
+  }
+  .Review-header__p3 {
+    font-size: 1rem;
+  }
+}
+.ReviewSlider {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.ReviewSlider-individual {
+  height: 20rem;
+  width: 35rem;
+  border: 5px solid #2cb5b4;
+  align-content: center;
+}
+.ReviewSlider-individual__container {
+  height: auto;
+  width: 20rem;
+  margin: auto;
+}
+.ReviewSlider-individual__name {
+  font-size: 1rem;
+  color: #446989;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.ReviewSlider-individual__post {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #A1AEB7;
+  line-height: 1.3rem;
+}
+.ReviewSlider-individual__description {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2cb5b4;
+  line-height: 1.5rem;
+}
+
+.ReviewSlider-Small {
+  display: none;
+}
+
+@media screen and (max-width: 360px) {
+  .ReviewSlider-Medium {
+    display: none;
+  }
+  .ReviewSlider-Small {
+    display: inline;
+  }
+  .ReviewSlider-individual {
+    width: 23rem;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 360px) {
+  .ReviewSlider-Medium {
+    display: none;
+  }
+  .ReviewSlider-Small {
+    display: inline;
+  }
+  .ReviewSlider-individual {
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 576px) {
+  .ReviewSlider-individual {
+    width: 25rem;
+  }
+}
+.EndSection {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 5rem;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+}
+.EndSection-header {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.EndSection-header__text {
+  font-size: 3.12rem;
+  height: 5rem;
+  width: 6rem;
+  background-color: #BCF3F3;
+  color: #446989;
+  font-weight: 500;
+  list-style: 4rem;
+  text-align: center;
+}
+.EndSection-header__text1 {
+  color: #446989;
+  font-size: 3.12rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+.EndSection-header__text2 {
+  color: #2cb5b4;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.EndSection-header__image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 360px) {
+  .EndSection {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .EndSection-header {
+    gap: 0rem;
+    width: 100%;
+  }
+  .EndSection-header__image1 {
+    width: 100%;
+  }
+  .EndSection-header__image {
+    display: none;
+  }
+  .EndSection-header__text1 {
+    font-size: 1rem;
+  }
+  .EndSection-header__text2 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .EndSection {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+  .EndSection-header__image {
+    display: none;
+  }
+  .EndSection-header__text1 {
+    font-size: 2rem;
+  }
+  .EndSection-header__text2 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 854px) {
+  .EndSection {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .EndSection-header__text {
+    font-size: 2rem;
+  }
+  .EndSection-header__image1 {
+    width: 80%;
+  }
+  .EndSection-header__image {
+    display: none;
+  }
+  .EndSection-header__text1 {
+    font-size: 2rem;
+  }
+  .EndSection-header__text2 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 578px) {
+  .EndSection {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .EndSection-header__text {
+    font-size: 2rem;
+    float: left;
+  }
+  .EndSection-header__image1 {
+    width: 80%;
+  }
+  .EndSection-header__image {
+    display: none;
+  }
+  .EndSection-header__text1 {
+    font-size: 2rem;
+  }
+  .EndSection-header__text2 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 854px) and (max-width: 1024px) {
+  .EndSection {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .EndSection-header__text {
+    font-size: 2rem;
+  }
+  .EndSection-header__image1 {
+    width: 80%;
+  }
+  .EndSection-header__image {
+    width: 40%;
+    float: right;
+    height: 40%;
+  }
+  .EndSection-header__text1 {
+    font-size: 2rem;
+  }
+  .EndSection-header__text2 {
+    font-size: 1.25rem;
+  }
+}
+.Footer {
+  background-color: #446989;
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+}
+.Footer-container {
+  margin-top: 5rem;
+}
+.Footer-container__first {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-top: 3rem;
+}
+.Footer-container__term {
+  color: #FFFFFF;
+  font-family: 0.88rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+.Footer-container__description {
+  color: #CCCCCC;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+.Footer-End {
+  height: auto;
+  width: auto;
+  border-top: #FFFFFF solid 1px;
+  background-color: #446989;
+  color: #FFFFFF;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+.Footer-End__link {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: end;
+  gap: 4rem;
+  align-self: center;
+}
+
+@media screen and (max-width: 360px) {
+  .Footer-End__link {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+  .Footer-End__link {
+    gap: 2rem;
+  }
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,51 @@
+.Review {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 4rem;
+  &-header {
+    text-align: center;
+    &__p1 {
+      font-size: 3.12rem;
+      color: #446989;
+      font-weight: 700;
+    }
+    &__p2 {
+      font-size: 1.3rem;
+      color: #446989;
+      font-weight: 700;
+    }
+    &__p3 {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #2cb5b4;
+    }
+  }
+}
+
+@media screen and (max-width:360px) {
+  .Review-header{
+    &__p1{
+      font-size: 2rem;
+    }
+    &__p2{
+      font-size: 1.2rem;
+    }
+    &__p3{
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Review-header{
+    &__p1{
+      font-size: 2rem;
+    }
+    &__p2{
+      font-size: 1.2rem;
+    }
+    &__p3{
+      font-size: 1rem;
+    }
+  }
+  
+}

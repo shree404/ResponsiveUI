@@ -1,0 +1,17 @@
+.Featured{
+    font-family: "Ubuntu", sans-serif;
+    background-color: #CFF3F3;
+    margin-top: 2rem;
+    &-header{
+        font-size: 1.88rem;
+        font-weight: 700;
+        justify-content: center;
+        display: flex;
+        color: #446989;
+    }
+    &-platform{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

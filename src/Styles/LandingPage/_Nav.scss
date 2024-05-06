@@ -1,0 +1,140 @@
+.Navbar {
+    box-shadow: 0px 10px #CFF3F3;
+    height: 5rem;
+    width: 100%;
+  &-Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    &-link {
+      display: flex;
+      align-items: center;
+      gap:5rem;
+    }
+    &__list {
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1.12rem;
+      color:#2cb5b4 ;
+      font-weight: 500;
+      list-style: none;
+    }
+    &__button {
+      font-size: 0.75rem;
+      color: white;
+      background-color: #2cb5b4;
+      height: 2.5rem;
+      width: 10rem;
+      border: none;
+      border-radius: 0.27rem;
+      box-shadow: 0px 1.75px #D8D8D8;
+    }
+  }
+}
+
+.MobileNav{
+  display: none;
+  &-Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    &__menu{
+      & button{
+        border: none;
+        background-color: white;
+        height: 50%;
+        width: 50%;
+        & img{
+        }
+      }
+    }
+    &__DropdownMenu{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+    }
+  }
+}
+
+#MobileNav-Container__Dropdownbutton{
+    color:white ;
+      background-color:#2cb5b4 ;
+      border: none;
+      font-size: 1rem;
+}
+
+
+@media screen and (max-width:360px) {
+  .MobileNav{
+    display: inline;
+  }
+  .Navbar{
+    display: none;
+    &-Container__button{
+      font-size: 1rem;
+    }
+  }
+}
+@media screen and (min-width:360px)  and (max-width:576px){
+  .MobileNav{
+    display: inline;
+  }
+  .Navbar{
+    display: none;
+    &-Container__button{
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and  (max-width:600px) and (min-width:375px)  {
+  .Navbar{
+    height: 8rem;
+    &-Container{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      align-items: center;
+      &-link{
+        gap: 3rem;
+      }
+    }
+  }
+}
+
+@media screen and  (max-width:712px) and (min-width:600px)  {
+  .Navbar{
+    height: 8rem;
+    &-Container{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      align-items: center;
+      &-link{
+        gap: 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and  (min-width:712px)  {
+  .Navbar{
+    height: 8rem;
+    &-Container{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      align-items: center;
+      justify-content: space-around;
+      &-link{
+        gap: 2rem;
+      }
+    }
+  }
+}

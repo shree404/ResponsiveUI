@@ -1,0 +1,162 @@
+.HowItWorks {
+  font-family: "Ubuntu", sans-serif;
+  &-header__p1 {
+    font-size: 3.12rem;
+    font-weight: 700;
+    color: #446989;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  &-blog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    &-1 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 9rem;
+    }
+    &-individual {
+      height: auto;
+      width: 20rem;
+    }
+    &__p1 {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: #446989;
+    }
+    &__p2 {
+      font-weight: 700;
+      font-size: 2.05rem;
+      color: #446989;
+    }
+    &__p3 {
+      font-size: 1.5rem;
+      color: #2cb5b4;
+      line-height: 1.75rem;
+      font-weight: 400;
+    }
+  }
+  &-end {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .HowItWorks {
+    &-header__p1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+    &-blog {
+      &-individual {
+        margin-top: 1rem;
+      }
+      &-1 {
+        gap: 0rem;
+      }
+      &__p1 {
+        font-size: 1rem;
+      }
+      &__p2 {
+        font-size: 1.75rem;
+      }
+      &__p3 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+  .HowItWorks-blog {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    &__image {
+      display: flex;
+      justify-content: center;
+    }
+    &-individual {
+      margin-top: 1rem;
+      width: 15rem ;
+      height: auto;
+    }
+    &-1 {
+      gap: 1rem;
+    }
+    &__p1 {
+      font-size: 0.75rem;
+    }
+    &__p2 {
+      font-size: 1.5rem;
+    }
+    &__p3 {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 712px) and (min-width: 600px) {
+  .HowItWorks-blog {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    &__image {
+      display: flex;
+      justify-content: center;
+    }
+    &-individual {
+      margin-top: 1rem;
+      width: 15rem ;
+      height: auto;
+      margin:1rem;
+    }
+    &-1 {
+      gap: 1rem;
+    }
+    &__p1 {
+      font-size: 0.75rem;
+    }
+    &__p2 {
+      font-size: 1.5rem;
+    }
+    &__p3 {
+      font-size: 1rem;
+    }
+  }
+}
+
+
+@media screen and (max-width:912px) and (min-width:712px) {
+  .HowItWorks-blog {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    &__image {
+      display: flex;
+      justify-content: center;
+      width: 75%;
+    }
+    &-1{
+      justify-content: space-around;
+    }
+    &-individual {
+      margin-top: 1rem;
+      width: 10rem ;
+      height: auto;
+    }
+    &__p1 {
+      font-size: 0.75rem;
+    }
+    &__p2 {
+      font-size: 1.25rem;
+    }
+    &__p3 {
+      font-size: 1rem;
+    }
+  }
+}
