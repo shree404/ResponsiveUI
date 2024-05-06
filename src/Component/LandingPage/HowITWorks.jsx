@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import img from "../Assets/iphone.png";
+import img from "../../Assets/Page1/iphone.png";
 
 function HowItWorks() {
   return (
