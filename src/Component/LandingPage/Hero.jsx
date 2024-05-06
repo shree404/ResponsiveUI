@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import image from "../Assets/image 2.png";
+import image from "../../Assets/Page1/image 2.png";
 
 function Hero() {
   return (

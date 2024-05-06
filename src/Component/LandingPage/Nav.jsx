@@ -1,5 +1,5 @@
-import logo from "../Assets/Group 4.png";
-import menu from "../Assets/menu.png";
+import logo from "../../Assets/Page1/Group 4.png";
+import menu from "../../Assets/Page1/menu.png";
 import { useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Dropdown from "react-bootstrap/Dropdown";

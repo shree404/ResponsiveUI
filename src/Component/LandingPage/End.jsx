@@ -1,5 +1,5 @@
-import img1 from "../Assets/9.png";
-import img2 from "../Assets/10.png";
+import img1 from '../../Assets/Page1/9.png';
+import img2 from "../../Assets/Page1/10.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

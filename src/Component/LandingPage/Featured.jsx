@@ -1,10 +1,10 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import img1 from '../Assets/3.png';
-import img2 from '../Assets/4.png';
-import img3 from '../Assets/5.png';
-import img4 from '../Assets/6.png';
+import img1 from '../../Assets/Page1/3.png';
+import img2 from '../../Assets/Page1/4.png';
+import img3 from '../../Assets/Page1/5.png';
+import img4 from '../../Assets/Page1/6.png';
 
 
 function Featured(){

@@ -1,9 +1,9 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import img1 from "../Assets/Group.png";
-import img2 from "../Assets/1.png";
-import img3 from "../Assets/2.png";
+import img1 from "../../Assets/Page1/Group.png";
+import img2 from "../../Assets/Page1/1.png";
+import img3 from "../../Assets/Page1/2.png";
 
 function Makemoney() {
   return (
