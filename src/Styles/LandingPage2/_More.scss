@@ -1,0 +1,34 @@
+.MoreWork{
+    font-family: "Ubuntu", sans-serif;
+    &-Row1{
+        text-align: center;
+        &__p1{
+            font-weight: 700;
+            font-size: 3.12rem;
+            color: #3C4C6A;
+            line-height: 4rem;
+        }
+        &__p2{
+            font-weight: 500;
+            font-size: 1.12rem;
+            line-height: 1.5rem;
+            color: #6B768A;
+        }
+    }
+    &-head{
+        font-weight: 700;
+        color: #3C4C6A;
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    &-list{
+        color: #6B768A;
+        font-size: 1.12rem;
+        line-height: 1.5rem;
+
+    }
+    &__link{
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+}

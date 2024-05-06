@@ -1,0 +1,48 @@
+.Projects {
+  margin-top: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  text-wrap: wrap;
+  &-first {
+    text-align: center;
+    font-size: 3.12rem;
+    color: #f66d20;
+    font-weight: 700;
+    line-height: 4rem;
+  }
+  &-individual {
+    margin-left: 3rem;
+  }
+  &-des {
+    margin-top: 4rem;
+    &__p1 {
+      font-size: 2.4rem;
+      color: #3c4c6a;
+      line-height: 3rem;
+      font-weight: 700;
+    }
+    &__p2 {
+      font-size: 1.12rem;
+      font-weight: 400;
+      line-height: 1.4rem;
+      color: #6b768a;
+    }
+    &__p3 {
+      font-size: 1.12rem;
+      font-weight: 400;
+      color: #f66d20;
+    }
+  }
+  &-last{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #FBF7F6;
+    &__p{
+        font-weight: 500;
+        font-size: 3.12rem;
+        line-height: 4rem;
+        color: #3C4C6A;
+        margin-top: 2rem;
+    }
+  }
+}

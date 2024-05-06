@@ -780,4 +780,159 @@
   .Footer-End__link {
     gap: 2rem;
   }
+}
+.Navbar2-container {
+  background-color: #C2D1D9;
+  height: 5rem;
+  width: 100%;
+}
+
+.Navbar2 {
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Navbar2-first {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+.Navbar2__list {
+  font-size: 1.12rem;
+  color: #3C4C6A;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.Navbar2-last {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+  .Navbar2 {
+    display: none;
+  }
+  .Navbar2-container {
+    display: none;
+  }
+}
+.Hero2 {
+  font-family: "Ubuntu", sans-serif;
+}
+.Hero2-first {
+  margin-top: 5rem;
+}
+.Hero2-first__p1 {
+  font-size: 1.62rem;
+  color: #424B5A;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.Hero2-first__p2 {
+  font-size: 4.12rem;
+  color: #3C4C6A;
+  font-weight: 500;
+}
+.Hero2-first__button {
+  background-color: #F66D20;
+  color: white;
+  border: none;
+  font-size: 0.75rem;
+  font-weight: 500;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+}
+.Hero2-last {
+  height: 0.8rem;
+  width: 100%;
+  background-color: #F77F3C;
+}
+
+.Projects {
+  margin-top: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  text-wrap: wrap;
+}
+.Projects-first {
+  text-align: center;
+  font-size: 3.12rem;
+  color: #f66d20;
+  font-weight: 700;
+  line-height: 4rem;
+}
+.Projects-individual {
+  margin-left: 3rem;
+}
+.Projects-des {
+  margin-top: 4rem;
+}
+.Projects-des__p1 {
+  font-size: 2.4rem;
+  color: #3c4c6a;
+  line-height: 3rem;
+  font-weight: 700;
+}
+.Projects-des__p2 {
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #6b768a;
+}
+.Projects-des__p3 {
+  font-size: 1.12rem;
+  font-weight: 400;
+  color: #f66d20;
+}
+.Projects-last {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: #FBF7F6;
+}
+.Projects-last__p {
+  font-weight: 500;
+  font-size: 3.12rem;
+  line-height: 4rem;
+  color: #3C4C6A;
+  margin-top: 2rem;
+}
+
+.MoreWork {
+  font-family: "Ubuntu", sans-serif;
+}
+.MoreWork-Row1 {
+  text-align: center;
+}
+.MoreWork-Row1__p1 {
+  font-weight: 700;
+  font-size: 3.12rem;
+  color: #3C4C6A;
+  line-height: 4rem;
+}
+.MoreWork-Row1__p2 {
+  font-weight: 500;
+  font-size: 1.12rem;
+  line-height: 1.5rem;
+  color: #6B768A;
+}
+.MoreWork-head {
+  font-weight: 700;
+  color: #3C4C6A;
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+.MoreWork-list {
+  color: #6B768A;
+  font-size: 1.12rem;
+  line-height: 1.5rem;
+}
+.MoreWork__link {
+  margin-top: 2rem;
+  margin-left: 2rem;
 }/*# sourceMappingURL=App.css.map */
